@@ -1,0 +1,9 @@
+require 'nokogiri'
+require 'open-uri'
+require 'pry'
+
+
+require_relative '../lib/dance_listings/version'
+require_relative '../lib/dance_listings/scraper'
+require_relative '../lib/dance_listings/hike'
+require_relative '../lib/dance_listings/cli'
